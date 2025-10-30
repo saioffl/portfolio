@@ -207,8 +207,10 @@ a:hover::before {
 /* From Uiverse.io by BlackisPlay */ 
 #ghost {
     position: relative;
+    display: block;
     top: 50px;
-    left: 700px;
+    /* left: 700px; */
+    padding-left: 900px;
     scale: 0.8;
 }
 
